@@ -14,7 +14,7 @@ repositories {
 }
 
 def runeLiteVersion = 'latest.release'
-def pluginMainClass = 'com.abu.hybridinventory.HybridInventoryPluginTest'  // For 'run' task
+def pluginMainClass = 'com.snoop.FixedResizableBySnoopTest'  // For 'run' task
 
 dependencies {
     compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
@@ -27,7 +27,7 @@ dependencies {
     testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
 }
 
-group = 'com.abu'
+group = 'com.snoop'
 version = '1.0-SNAPSHOT'
 
 tasks.withType(JavaCompile).configureEach {
