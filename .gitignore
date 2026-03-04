@@ -1,0 +1,21 @@
+# Build
+build/
+out/
+.gradle/
+downloads/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

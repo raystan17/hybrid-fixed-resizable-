@@ -1,0 +1,3 @@
+@echo off
+echo Starting RuneLite with Hybrid Inventory plugin...
+call gradlew.bat run
